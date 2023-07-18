@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/sytle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <title>Meteo App</title>
+</head>
+<body>
+        <div class="container">
+            <div class="search-box">
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="text" placeholder="Cerca qui...">
+                <button class="fa-solid fa-magnifying-glass"></button>
+            </div>
+
+            <div class="not-found">
+                <img src="./icon/page-not-found.png" alt="Image not found">
+                <p>Ops posizione non trovata... RIprova sarai più fortunato</p>
+            </div>
+
+            <div class="weather-box">
+                <img>
+                <p class="temperature"></p>
+                <p class="description"></p>
+            </div>
+
+            <div class="weather-details">
+                 <div class="humidity">
+                    <i class="fa-solid fa-cloud"></i>
+                    <div class="text">
+                        <span></span>
+                        <p class="">Umidità</p>
+                    </div>
+                 </div>
+
+                 <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="text">
+                        <span></span>
+                        <p class="">Velocità Vento</p>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/729aa9b967.js" crossorigin="anonymous"></script>
+</body>
+</html>
